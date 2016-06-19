@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<head>
+   
+   <script src= "pretzelscript.js"></script>
+   <link rel="stylesheet" type="text/css" href="pretzel.css">
+   <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+<script src="https://use.fontawesome.com/6c4cc332dc.js"></script>
+</head>
+
+    
+    
+<body>
+
+  <div class="row">
+      <div class="col-md-4"></div>
+      <div class="col-md-4" id="copy">
+          <div id="speech">
+          <p>Welcome to Twisted Pretzel!</p>
+          <p>Today's Special is %10 off your total <br>purchase of 6 or more pretzels.</p>
+          <p>How many pretzels would you like?</p>
+          <a href="https://www.google.com"><i class="fa fa-blind" aria-hidden="true"></i></a>
+          </div>
+            
+          <form id="quantity">
+                <!-- User Input -->
+                <input name="pretzelNum" type="" id="uispace">&nbsp;
+                <button type="button" onclick="calculateTotal()" class="btn btn-primary" id="total">Total</button><br><br>
+                <input type="reset" onclick="resetFunction()" value="New Sale" class="btn btn-danger" id="sale">
+          </form>
+          <br>
+         <div id="paper">
+                <h4><strong>Thank You for Choosing Twisted Pretzel</strong></h4>
+                <p id="receipt"></p>
+                <br>
+                
+                <p>Take our survey for a chance <br>to win a Free Pretzel!</p>
+          </div>
+      </div>
+      <div class="col-md-4">
+          
+      </div>
+  </div>
+    
+    <div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="#">About</a>
+  <a href="#">Services</a>
+  <a href="#">Clients</a>
+  <a href="#">Contact</a>
+</div>
+
+<!-- Use any element to open the sidenav -->
+<span onclick="openNav()">open</span>
+
+<!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
+<div id="main">
+  <h1>Yup</h1>
+</div>
+    
+    
+  
+  
+ 
+    
+</body>
+
+
+
+
+</html>
